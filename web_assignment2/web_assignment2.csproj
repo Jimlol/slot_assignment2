@@ -66,6 +66,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\main.css" />
     <Content Include="img\body_bg.jpg" />
     <Content Include="img\num.png" />
     <Content Include="img\pocket.png" />

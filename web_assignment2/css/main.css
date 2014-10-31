@@ -1,0 +1,180 @@
+﻿/* RESET ALL STYLE */
+body, div, span, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td ,button {
+	margin:0 auto;
+	padding:0;
+	outline:none;
+}
+body {
+	font-family:Arial, sans-serif;
+	font-size:14px;
+	background:url(../img/body_bg.jpg) 0px 0px repeat #000;
+}
+table {
+	border-spacing:0;
+}
+fieldset, img {
+	border:0;
+}
+address, caption, cite, code, dfn, em, strong, th, var {
+	font-style:normal;
+	font-weight:normal;
+}
+ol, ul, dl, li, dt, dd {
+	list-style:none;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight:normal;
+}
+q:before, q:after {
+	content:'';
+}
+abbr, acronym {
+	border:0;
+}
+a {
+	outline:0;
+}
+input, select {
+	font-size: 13px;
+	line-height: 18px;
+}
+pre {
+	margin:0px;
+	white-space:pre-wrap;
+	word-wrap:break-word;
+}
+.none {
+	display:none;
+}
+
+/* Slot Main Box  */
+#slotbox {
+	width:750px;
+	height:450px;
+	margin-top:100px;
+	position:relative;
+	background:url(../img/slotbox_bg.png) 0 0 no-repeat ;
+ }
+ 
+ /* topban nothing */
+#topban {
+	width:100%;
+	height:85px;
+}
+/* this div show winOrLose and the  picture from QQ expression */
+#wltipsbox {
+	width:100%;
+	height:55px;
+}
+#winOrLose {
+	width:140px;
+	height:40px;
+	float:left;
+	position:relative;
+	left:50%;
+	margin-left:-70px;
+	color:#fff;
+}
+/* wltips is only a picture box */
+.wltips {
+	width:24px;
+	height:24px;
+	float:left;
+	}
+.wltips img {
+	width:24px;
+	height:24px;
+}
+#winOrLose p {
+	width:100px;
+	height:24px;
+	float:left;
+	margin-left:8px;
+	display:block;
+	line-height:24px;
+}
+#slotmain {
+	width:100%;
+	height:180px;
+}
+/* statistical infomation box */
+#result {
+	width:455px;
+	height:155px;
+}
+#result div {
+	width:150px;
+	height:150px;
+	float:left;
+	background:url(../img/num.png) no-repeat;
+}
+#stat {
+	width:100%;
+	height:50px;
+	color:#fff;
+	font-size:12px;
+	}
+#stat ul {
+	width:86%;
+	height:;
+	float:right;
+	}
+#stat li {
+	width:110px;
+	height:32px;
+	float:left;
+	}
+/* green control pannel */
+#control {
+	width:88%;
+	height:auto;
+	float:right;
+	}
+.disp {
+	width:160px;
+	height:auto;
+	float:left;
+	}
+.pocket {
+	width:52px;
+	height:52px;
+	float:left;
+	}
+#playerMoney {
+	width:100px;
+	height:52px;
+	float:left;
+	color:#420;
+	font-size:32px;
+	line-height:52px;
+	}
+#betEntry {
+	width:210px;
+	height:52px;
+	float:left;
+	margin-left:50px;
+	}
+#betEntry p {
+	color:#05a;
+	font-size:12px;
+	line-height:20px;
+}
+#betEntry input {
+	width:108px;
+	height:24px;
+	border:1px solid #048;
+	text-align:center;
+	color:#f30;
+	font-size:18px;
+	font-weight:bold;
+	line-height:24px;
+	}
+#spinButton {
+	width:140px;
+	height:48px;
+	background:url(../img/spin.png) no-repeat;
+	float:left;
+	margin-top:6px;
+	border:none;
+	cursor:pointer;
+}
